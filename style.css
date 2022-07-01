@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 18px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: fit-content;
+    
+}
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+p{
+    font-family: 'Roboto'
+}
+
+h1,h2{
+    font-family: 'Playfair Display';
+
+}
+.hero{
+    background-color: #F3EED9;
+    min-height: 660px;
+    text-align: center;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #824936;
+    font-size: 60px;
+}
+.small-text{
+    word-spacing: 0.5rem;
+    font-size: 21px;
+    letter-spacing: 0.5rem;
+}
+
+/* main section */
+main h2{
+    color: #824936;
+    font-size: 36px;
+    
+    
+}
+main{
+    border-radius:  10px solid red;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+.main-text{
+    margin-top: 3rem;
+    gap:5rem;    
+}
+.main-text p{
+    max-width: 40%;
+    line-height: 1.5rem;
+}
+/* info1 */
+.info1{
+    background-color: #222C2A;
+    padding: 1rem;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info1 .row{
+    gap: 10%;
+}
+.info1-text{
+    color: #fff;
+    align-self: flex-start;
+    width: 40%;
+    line-height: 1.5rem;
+}
+.info1-text h2{
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+/* info2 */
+.info2{
+    background-color: #824936;
+    padding: 1rem;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info2 .row{
+    gap: 10%;
+}
+.info2-text{
+    color: #fff;
+    align-self: flex-start;
+    width: 40%;
+    line-height: 1.5rem;
+}
+.info2-text h2{
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+.info2-img img{
+    /* border: 2px solid red; */
+    margin: 5px;
+    padding: 1px;
+    
+}
